@@ -10,16 +10,16 @@ tags:
     - Adobe Illustrator
 ---
 
-#AI介绍
+# AI介绍
 
 在很多情况下如科研作图中，我们需要将图片放大很多倍但不会降低图像的清晰度，而这样的图像我们称之为"矢量图"(Vector graphic)，与之相对的则是"像素图"(pixel graphic)。矢量图跟放大多少倍无关，而像素图的像素是一定的，放大很多倍后，图片就开始变得模糊了。AI就可以生成矢量图，而photoshop只能生成像素图，这就是为什么在很多设计工作中人们更多的使用AI而不是PS了。
 
-#Workspace
+# Workspace
 
 首先让我们来熟悉一下AI的工作区：
 
 >
-![AI workspace](https://ibb.co/hrfesp)
+![AI workspace](https://i.imgur.com/6vySabk.png)
 >
 1. Workspace switcher (Essential Classic): A workspace is the selection of Illustrator tools laid out on your screen for easy access. The default workspace is Essentials. 
 2. Menu Bar: File, Edit, etc. Illustrator functions are available from the drop-down menus. 
