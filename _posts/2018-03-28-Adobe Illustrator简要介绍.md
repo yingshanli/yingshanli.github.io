@@ -2,7 +2,7 @@
 layout:     post
 title:      Adobe Illustrator简要介绍
 subtitle:   介绍Adobe Illustrator的主要功能
-date:       2018-08-10
+date:       2018-03-28
 author:     Yingshan Li
 header-img: img/sunrise.jpg
 catalog: true
@@ -34,7 +34,7 @@ tags:
 
 Adapted from "Illustrator CC 2014 Essential Skills" from Kennesaw State University
 
-#主要工具
+# 主要工具
 
 1. Create new document: File—New—More Settings
 2. Using color: Swatches/Control Bar/Fill and Stroke in Tootles Panel(Stroke是描边的意思, 给对象填色的时候记得fill和stroke都试一下)
