@@ -2,7 +2,7 @@
 title: YingshanLi
 SEOTitle: Yingshan | 李应山
 header-img: img/Tibet.jpg
-email: lys_life@163.com
+email: li.yingshan@huskers.unl.edu
 description: "Every failure is leading towards success."
 keyword: "Python, Linux, Perl, R, Bioinformatics, Machine Learning, Precision medicine"
 url: "http://yingshanli.github.io"
@@ -11,7 +11,7 @@ github_repo: "https://github.com/yingshanli/yingshanli.github.io.git" # you code
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "站得高才能望得远！"
+sidebar-about-description: "为天地立心，为生民立命，为往圣继绝学，为万世开太平！"
 sidebar-avatar: /img/yingshan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
