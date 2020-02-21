@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Linux简要教程
+title:      Linux简要教程-shell
 subtitle:   介绍Linux环境中的shell 了脚本编程
 date:       2018-09-08
 author:     Yingshan Li

@@ -2,7 +2,7 @@
 layout:     post
 title:      Adobe Illustrator简要介绍
 subtitle:   介绍Adobe Illustrator的主要功能
-date:       2018-03-28
+date:       2018-01-08
 author:     Yingshan Li
 header-img: img/photograph/unl-4.jpg
 catalog: true
