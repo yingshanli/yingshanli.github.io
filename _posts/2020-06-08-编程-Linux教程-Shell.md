@@ -2,7 +2,7 @@
 layout:     post
 title:      Introduction to Linux-shell
 subtitle:   Introduction to Shell scripting
-date:       2018-09-08
+date:       2020-06-08
 author:     Yingshan Li
 header-img: img/sunrise.jpg
 catalog: true
@@ -10,7 +10,11 @@ tags:
     - Linux
 ---
 
-### 创建shell脚本
+### Introduction
+
+A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.
+
+### Creat shell scripts
 创建一个test.sh文件
 
 ```
