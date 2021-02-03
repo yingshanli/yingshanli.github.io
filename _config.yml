@@ -22,8 +22,7 @@ RSS: false
 zhihu_username:     li-ying-shan-3
 github_username:    yingshanli
 #facebook_username:  
-jianshu_username:   ddb2e2b967be
-#twitter_username:   qiubaiying
+#jianshu_username:   ddb2e2b967be
 
 
 
@@ -102,8 +101,8 @@ friends: [
         title: "zhihu",
         href: "https://www.zhihu.com/people/li-ying-shan-3/activities"
     },{
-        title: "简书·李应山",
-        href: "https://www.jianshu.com/users/ddb2e2b967be/timeline"
+        #title: "Jianshu·Yingshan Li",
+        #href: "https://www.jianshu.com/users/ddb2e2b967be/timeline"
     },{
         #title: "Apple",
         #href: "https://apple.com"
