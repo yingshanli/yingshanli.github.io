@@ -22,7 +22,7 @@ A shell script is a computer program designed to be run by the Unix shell, a com
 echo "Hello world!"
 ```
 
-### 执行shell脚本
+### Execute shell script
 
 ```
 /bin/sh test.sh	直接运行bash命令执行shell脚本文件
@@ -32,7 +32,7 @@ echo "Hello world!"
 chmod +x ./test.sh	先将脚本文件更改成可执行程序再执行
 ```
 
-### 注释
+### Annotation
 **单行注释：**每一行的行首加上#
 
 **多行注释：**
@@ -45,16 +45,16 @@ chmod +x ./test.sh	先将脚本文件更改成可执行程序再执行
 EOF
 ```
 
-### 输入输出重定向
+### I/O redirection
 
 ```
 > file 以覆盖的方式将输出重定向到file
 >>	file	以追加的方式将输出重定向到file
 ```
 
-## 变量
+## Variable
 
-#### 定义变量
+#### Define a variable
 shell可以直接定义变量，不需要想其它脚本语言如perl中那样在变量名前面加上特殊字符
 
 ```
@@ -76,7 +76,7 @@ done
 #### 删除变量
 unset命令可以删除变量
 
-## 字符串
+## String
 
 **拼接字符串**
 
@@ -94,9 +94,9 @@ echo ${#name}		获取字符串长度，#表示number的意思
 echo ${name:1:8}		提取子字符换
 ```
 
-### 数组
+### Array
 
-#### 创建数组
+#### Create an array
 
 ```
 Names=(YingshanLi Bob John)	用空格奖数组里的元素分开，同样数组名和等号之间不能有空格
@@ -124,7 +124,7 @@ echo ${Names[@]}		打印所有名字
 echo ${#Names[@]}
 ```
 
-## 运算符
+## Operators
 
 ### 算数运算符
 
@@ -176,7 +176,7 @@ echo "wrong"
 fi
 ```
 
-## 流程控制
+## Flow control
 
 ### if else
 
@@ -193,9 +193,9 @@ fi
 
 `if [[ $a -gt 6 && $b -lt 10 ]]; then echo "yes"; fi`
 
-### 循环
+### Loop
 
-**1. for循环**：
+**1. for loop**：
 
 ```
 for line in `cat reads.txt`
@@ -204,11 +204,11 @@ do
 done
 ```
 
-写成一行
+One line
 
 `for line in `cat reads.txt`; do echo "$line"; done`
 
-**2. while循环**:
+**2. while loop**:
 
 ```
 i=1
@@ -219,7 +219,7 @@ do
 done
 ```
 
-无限循环
+Infinite loop
 
 ```
 while true
@@ -236,13 +236,13 @@ done
 
 **continue**跳出本次循环
 
-## 参数传递
+## Parameter passing
 
 很多时候我们需要利用命令行中的参数，可以用$n来获得。当执行命令`cat a.txt b.txt x.txt`后，$0的值为cat，$1的值为a.txt，$2的值为b.txt，以此类推
 
-## 函数
+## Function
 
-### 创建函数
+### Define a function
 
 ```
 printname(){
@@ -252,7 +252,7 @@ printname(){
 printname
 ```
 
-### 函数参数
+### Function parameters
 
 ```
 printname(){
